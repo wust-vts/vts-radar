@@ -1,0 +1,35 @@
+IP_CoachStation = 192.168.0.92
+IP_ConningService = 192.168.0.189
+IP_SGPanel = 192.168.0.221
+IP_PSPanel = 192.168.0.222
+IP_LogPanel = 192.168.0.223
+IP_AlarmPanel = 192.168.0.224
+IP_RealRudder = 192.168.0.235
+IP_VI = 192.168.0.14
+IP_ControlServer = 192.168.0.120
+IP_Radar = 192.168.0.13
+
+Port_CoachStation_receive_rudder = 8007
+Port_CoachStation_receive_heartBeat = 7004
+Port_CoachStation_receive_telegraph = 8005
+Port_ConningService_receiveFrom_CoachStation = 10000
+Port_ConningService_receiveFrom_SGPanel = 10001
+Port_ConningService_receiveFrom_PSPanel = 10002
+Port_ConningService_receiveFrom_logPanel = 10003
+Port_ConningService_receive_heartBeat = 10004
+Port_ConningService_receive = 10005
+Port_ConningService_receive_rudder = 8007
+Port_ConningService_receive_telegraph = 8005
+Port_SGPanel_receive = 11000
+Port_SGPanel_receive_Rudder = 11001
+Port_PSPanel_receive = 12000
+Port_PSPanel_receive_Telegraph = 12001
+Port_LogPanel_receive = 13000
+Port_AlarmPanel_receive = 14000
+Port_RealRudder_receive = 10002
+Port_Compass_receive = 8002
+Port_VI_receive = 9999
+Port_ControlServer_receive = 8777
+Port_Radar_receive = 7777
+
+SessionNumber = 1

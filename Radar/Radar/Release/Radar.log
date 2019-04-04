@@ -1,0 +1,40 @@
+﻿生成启动时间为 2019\4\3 星期三 10:15:56。
+     1>项目“E:\VTS\vts雷达0402\Radar\Radar\Radar.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Radar.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ShipInfo.cpp
+         ShipInfo.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VTS\vts雷达0402\Radar\Release\Radar.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\VTS\vts雷达0402\Radar\Release\Radar.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VTS\vts雷达0402\Radar\Release\Radar.lib" /MACHINE:X86 /SAFESEH Release\Radar.res
+         Release\aisdecode.obj
+         Release\BitmapEx.obj
+         Release\DemTools.obj
+         Release\GlobalVariables.obj
+         Release\Host.obj
+         Release\MyMemDC.obj
+         Release\ShipInfo.obj
+         Release\ThreadLiGongConnect.obj
+         Release\IPConfig.obj
+         Release\MainFrm.obj
+         Release\MyString.obj
+         Release\PublicMethod.obj
+         Release\QuadTree.obj
+         Release\Radar.obj
+         Release\RadarDoc.obj
+         Release\ThreadRadar.obj
+         Release\RadarView.obj
+         Release\RWLockImpl.obj
+         Release\ShipDataService.obj
+         Release\stdafx.obj
+         Release\ThreadVts.obj
+         Release\vtsDEM.obj
+         Release\vtsDemData.obj
+         Release\vtsRadar.obj
+         正在生成代码
+     1>e:\vts\vts雷达0402\radar\radar\host.cpp(43): warning C4715: “BlackHost::insert”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         Radar.vcxproj -> E:\VTS\vts雷达0402\Radar\Release\Radar.exe
+     1>已完成生成项目“E:\VTS\vts雷达0402\Radar\Radar\Radar.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.48
