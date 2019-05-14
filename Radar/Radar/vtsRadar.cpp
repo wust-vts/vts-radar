@@ -6,6 +6,7 @@
 #include"PublicMethod.h"
 #include<mutex>
 #include<list>
+#include<stdlib.h>
 
 using namespace std;
 
@@ -927,8 +928,16 @@ void VtsRadar::getScanLinePixel(bool ** bcheck, PointF* p, const std::vector<std
 	double maxAng = 0;
 	const double t1 = 0.1;
 	const double t2 = 1 - t1;
+	bool first = false;
+	srand((unsigned)time(NULL));
+	int lightWidth = (rand() % 5) + 5;
+	//int lightWidth = 10;
+	int count = 0;
 	for (int i = 1; i <= maxL; i++)
 	{
+		if (count >= lightWidth){
+			break;
+		}
 		if (bcheck[(int)p[i].Y][(int)p[i].X]){
 			continue;
 		}
@@ -951,6 +960,8 @@ void VtsRadar::getScanLinePixel(bool ** bcheck, PointF* p, const std::vector<std
 		}
 		if (angle >= maxAng)
 		{
+			first = true;
+			count++;
 			maxAng = angle;
 			//计算亮度
 			double k1 = (t1*atan(tarH / 10.0f)) / (PI / 2);
@@ -970,7 +981,42 @@ void VtsRadar::getScanLinePixel(bool ** bcheck, PointF* p, const std::vector<std
 
 			bitmapEx.SetPixel((int)p[i].X, (int)p[i].Y, Gray);
 		}
+		else{
+			if (first){
+				break;
+			}
+		}
 	}
+	//DWORD background = _RGB(0, 0, 64);
+	//int lightWidth = 15;
+	//for (int i = 1; i <= maxL;)
+	//{
+	//	while (i <= maxL&&bitmapEx.GetPixel((int)p[i].X, (int)p[i].Y) == background){
+	//		i++;
+	//	}
+	//	int j = i;
+	//	int count = 0;
+	//	while (count < lightWidth&&i <= maxL&&bitmapEx.GetPixel((int)p[i].X, (int)p[i].Y) != background){
+	//		i++;
+	//		count++;
+	//	}
+	//	//光带认为有效
+	//	if (count >= lightWidth){
+	//		while (i <= maxL&&bitmapEx.GetPixel((int)p[i].X, (int)p[i].Y) != background)
+	//		{
+	//			bitmapEx.SetPixel((int)p[i].X, (int)p[i].Y, background);
+	//			i++;
+	//		}
+	//	}
+	//	//光带认为无效
+	//	else{
+	//		while (j<=i)
+	//		{
+	//			bitmapEx.SetPixel((int)p[j].X, (int)p[j].Y, background);
+	//			j++;
+	//		}
+	//	}
+	//}
 }
 
 void VtsRadar::generateRadarWithShipPic(vector <SHIP> ships){
