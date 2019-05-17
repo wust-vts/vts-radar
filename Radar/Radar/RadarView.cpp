@@ -948,6 +948,12 @@ int CRadarView::OnCreate(LPCREATESTRUCT lpCreateStruct)
 
 	InitSocket();
 
+	/*double x = 12637000;
+	double y = 2553000;
+	double lat = 0;
+	double lng = 0;
+	WebMercatorProjInvcal(x, y, lng, lat);*/
+
 	// TODO:  在此添加您专用的创建代码
 	memset(m_ButtonSelect, false, BUTTONNUM*sizeof(bool));
 

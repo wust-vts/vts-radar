@@ -190,7 +190,7 @@ std::vector<float> getRowData(std::string sRow, float hscale, size_t size){
 	vector<float> result;
 	size_t count = 0;
 	while ((*cRow) != 0){
-		while (((*cRow) < 48 || (*cRow) > 57) && (*cRow) != 0){
+		while (((*cRow) < 48 || (*cRow) > 57) && (*cRow) != 0 &&(*cRow)!='-'){
 			cRow++;
 		}
 		if ((*cRow) == 0){
@@ -199,7 +199,7 @@ std::vector<float> getRowData(std::string sRow, float hscale, size_t size){
 
 		const char* p = cRow;
 		//0~9
-		while ((*p) >= 48 && (*p) <= 57){
+		while (((*p) >= 48 && (*p) <= 57)||(*p=='-')){
 			p++;
 		}
 		if (p == cRow){
