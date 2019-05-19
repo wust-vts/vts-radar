@@ -1,38 +1,51 @@
-﻿生成启动时间为 2019\5\14 星期二 0:11:18。
+﻿生成启动时间为 2019\5\19 星期日 13:24:32。
      1>项目“E:\VTS\vts-radar\Radar\Radar\Radar.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_DEPRECATE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Radar.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt vtsRadar.cpp
-         vtsRadar.cpp
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(280): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(307): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(310): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(324): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(327): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(333): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(397): warning C4101: “e”: 未引用的局部变量
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(460): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(461): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(612): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(617): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(766): warning C4018: “>=”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(770): warning C4018: “>=”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(789): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(830): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(831): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(834): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(846): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(858): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(871): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(884): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(902): warning C4018: “<”: 有符号/无符号不匹配
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(844): warning C4101: “obsH”: 未引用的局部变量
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(914): warning C4244: “=”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(915): warning C4244: “=”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(920): warning C4244: “=”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(921): warning C4244: “=”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(978): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(1056): warning C4244: “初始化”: 从“const double”转换到“int”，可能丢失数据
-     1>e:\vts\vts-radar\radar\radar\vtsradar.cpp(1058): warning C4244: “初始化”: 从“const double”转换到“int”，可能丢失数据
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_DEPRECATE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Radar.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BitmapEx.cpp DemTools.cpp GlobalVariables.cpp Host.cpp IPConfig.cpp MainFrm.cpp MyMemDC.cpp MyString.cpp PublicMethod.cpp QuadTree.cpp RWLockImpl.cpp Radar.cpp
+         Radar.cpp
+     1>e:\vts\vts-radar\radar\radar\radarview.h(138): warning C4091: “typedef ”: 没有声明变量时忽略“ARPA_RECORD”的左侧
+     1>e:\vts\vts-radar\radar\radar\radarview.h(146): warning C4091: “typedef ”: 没有声明变量时忽略“Demdata”的左侧
+         RWLockImpl.cpp
+         QuadTree.cpp
+         PublicMethod.cpp
+     1>e:\vts\vts-radar\radar\radar\publicmethod.cpp(8): warning C4005: “PI”: 宏重定义
+                 e:\vts\vts-radar\radar\radar\publicmethod.h(5) : 参见“PI”的前一个定义
+     1>e:\vts\vts-radar\radar\radar\publicmethod.cpp(53): warning C4101: “latitude0”: 未引用的局部变量
+     1>e:\vts\vts-radar\radar\radar\publicmethod.cpp(208): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\publicmethod.cpp(210): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\publicmethod.cpp(218): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\publicmethod.cpp(220): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\publicmethod.cpp(229): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\publicmethod.cpp(284): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\publicmethod.cpp(285): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\publicmethod.cpp(303): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\publicmethod.cpp(304): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\publicmethod.cpp(411): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+         MyString.cpp
+         MyMemDC.cpp
+         MainFrm.cpp
+     1>e:\vts\vts-radar\radar\radar\radarview.h(38): warning C4005: “PI”: 宏重定义
+                 e:\vts\vts-radar\radar\radar\publicmethod.h(5) : 参见“PI”的前一个定义
+     1>e:\vts\vts-radar\radar\radar\radarview.h(138): warning C4091: “typedef ”: 没有声明变量时忽略“ARPA_RECORD”的左侧
+     1>e:\vts\vts-radar\radar\radar\radarview.h(146): warning C4091: “typedef ”: 没有声明变量时忽略“Demdata”的左侧
+         IPConfig.cpp
+         Host.cpp
+         GlobalVariables.cpp
+         DemTools.cpp
+     1>e:\vts\vts-radar\radar\radar\demtools.cpp(117): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\demtools.cpp(144): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\vts\vts-radar\radar\radar\demtools.cpp(219): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\demtools.cpp(220): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\demtools.cpp(248): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\demtools.cpp(230): warning C4101: “height”: 未引用的局部变量
+     1>e:\vts\vts-radar\radar\radar\demtools.cpp(447): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\demtools.cpp(448): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vts\vts-radar\radar\radar\demtools.cpp(481): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         BitmapEx.cpp
+         正在生成代码...
+     1>e:\vts\vts-radar\radar\radar\host.cpp(43): warning C4715: “BlackHost::insert”: 不是所有的控件路径都返回值
+     1>e:\vts\vts-radar\radar\radar\quadtree.cpp(323): warning C4715: “QuadTree::_getQuadRant”: 不是所有的控件路径都返回值
+     1>cl : 命令行 warning D9028: 最小重新生成失败，正在转换为标准生成
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VTS\vts-radar\Radar\Debug\Radar.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\VTS\vts-radar\Radar\Debug\Radar.pdb" /SUBSYSTEM:WINDOWS /STACK:"80000000" /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VTS\vts-radar\Radar\Debug\Radar.lib" /MACHINE:X86 Debug\Radar.res
          Debug\aisdecode.obj
@@ -59,9 +72,10 @@
          Debug\vtsDEM.obj
          Debug\vtsDemData.obj
          Debug\vtsRadar.obj
+         LINK : 没有找到 E:\VTS\vts-radar\Radar\Debug\Radar.exe 或上一个增量链接没有生成它；正在执行完全链接
          Radar.vcxproj -> E:\VTS\vts-radar\Radar\Debug\Radar.exe
      1>已完成生成项目“E:\VTS\vts-radar\Radar\Radar\Radar.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:02.38
+已用时间 00:00:09.61
